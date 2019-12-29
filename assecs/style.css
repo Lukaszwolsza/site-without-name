@@ -106,6 +106,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#paralaxa-second-img{
+    background-image: url("../img/paralax-second.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-text-paralax{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
 #footer{
     position: fixed;
     bottom:0;
@@ -170,12 +186,13 @@ body{
     cursor: pointer;
 }
 #contact-info{
-    height: 250px;
+   
     background-color: rgb(7, 19, 19);
 }
 .contact-text-title{
     text-align: center;
-    padding-top: 3%;
+    margin:0;
+    padding-top:1%;
 }
 .small-box-contact{
     margin:2.5% auto;
@@ -228,4 +245,9 @@ body{
     background-color: white;
     color:black;
     transition: 1s;
+}
+#contant-form{
+    height:30%;
+    background-color: black;
+    margin:0;
 }
