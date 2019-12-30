@@ -4,7 +4,6 @@ body{
     margin:0;
     color:white;
     font-family: 'Open Sans', sans-serif;
-
 }
 #site{
     background-image: url("../img/backgroundv2.jpg");
@@ -14,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    position: relative;
 }
 #menu-section{
     width: 100%;
@@ -93,14 +93,15 @@ body{
     color:white;
 }
 #white-page-paralax{
-    height: 450px;
     width:100%;
     background-color: white;
     color:black;
+    padding: 2% 0 5%;
+    position: relative;
 }
 #paralaxa-first-img{
     background-image: url("../img/paralax-lapt.jpg");
-    height: 500px;
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,13 +128,19 @@ body{
     bottom:0;
 }
 .img-logo-box{
-    width:20%;
-    height:60%;
-    padding:3%;
-    float:left;
+    text-align: center;
+    width:95%;
+    margin:20% auto;
+    display: block;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px 3px rgba(128,128,128,1);
 }
 .title-white-paralax-box{
-    padding-top: 4%;
+    margin: 4% 0;
+    text-align: center;
+}
+.text-p{
+    padding:0 10%;
 }
 #site-content-down{
     width: 100%;
@@ -275,13 +282,16 @@ body{
     background-color: black;
     margin:0;
 }
-.boxes-inside-paralax{
-    
-}
-#text-in-paralax{
+#boxes-inside-paralax{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
     text-align: center;
-    vertical-align: middle;
-    line-height: 500px;
-
+    color: #000;
+    display: block;
+}
+.text-in-paralax{
+    
     
 }
