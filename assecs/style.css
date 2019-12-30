@@ -196,7 +196,7 @@ body{
 }
 .small-box-contact{
     margin:2.5% auto;
-    font-size: 100%;
+    font-size: 120%;
     border-radius: 25px;
     text-align:center;
     display: inline;
@@ -215,18 +215,42 @@ body{
 }
 .big-box-contact{
     margin:2.5% auto;
-    font-size: 100%;
+    font-size: 120%;
     border-radius: 25px;
     text-align:center;
-    display: inline;
+    display: inline-block;
     width:80%;
     height:37%;
 }
-#btn-to-send{
+#btn-to-send-area{
+    border-radius: 25px;
     width:100%;
-    text-align: center;
-    background-color: rgb(7, 19, 19);
-    padding-bottom: 2%;
+    margin:0 auto;
+    text-align:center;
+    float:left;
+}
+#btn-to-send{
+    border-radius: 25px;
+    width:10%;
+    margin:0.5% auto;
+    text-align:center;
+    font-size: 140%;
+    border:1px solid grey;
+    background-color: black;
+    color:white;
+    transition: 1s;
+}
+#btn-to-send:hover{
+    border-radius: 25px;
+    width:10%;
+    margin:0.5% auto;
+    text-align:center;
+    font-size: 140%;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: 1s;
 }
 .sender-text{
     width:10%;
@@ -247,7 +271,17 @@ body{
     transition: 1s;
 }
 #contant-form{
-    height:30%;
+    height:40%;
     background-color: black;
     margin:0;
+}
+.boxes-inside-paralax{
+    
+}
+#text-in-paralax{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+
+    
 }
