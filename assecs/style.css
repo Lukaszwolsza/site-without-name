@@ -136,7 +136,7 @@ body{
     box-shadow: 1px 1px 8px 3px rgba(128,128,128,1);
 }
 .title-white-paralax-box{
-    margin: 4% 0;
+    margin: 3% 0 2%;
     text-align: center;
 }
 .text-p{
@@ -294,4 +294,9 @@ body{
 .text-in-paralax{
     
     
+}
+.horizontal-line{
+    width:50%;
+    text-align: center;
+    margin-bottom: 2%;
 }
