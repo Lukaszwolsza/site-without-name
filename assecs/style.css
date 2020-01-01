@@ -208,7 +208,10 @@ body{
     text-align:center;
     display: inline;
     width:75%;
-    height: 8%;
+    height: 10%;
+    border:2px solid white;
+    background-color: black;
+    color:white;
 }
 #input-contact-boxes{
     width:50%;
@@ -228,6 +231,9 @@ body{
     display: inline-block;
     width:80%;
     height:37%;
+    border:2px solid white;
+    background-color: black;
+    color:white;
 }
 #btn-to-send-area{
     border-radius: 25px;
